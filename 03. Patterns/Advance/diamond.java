@@ -17,26 +17,26 @@ public class diamond {
             System.out.print("Enter a number: ");
             int num = sc.nextInt();
             // Upper part
-            for (int i = 0; i < num; i++) {
+            for (int i = 1; i <= num; i++) {
                 // print spaces
-                for (int j = num - 1; j > i; j--) {
+                for (int j = 1; j <= (num - i); j++) {
                     System.out.print(" ");
                 }
                 // print *
-                for (int j = 0; j < (2 * i) + 1; j++) {
+                for (int j = 1; j <= (2 * i) - 1; j++) {
                     System.out.print("*");
                 }
                 System.out.println();
             }
 
             // Lower part
-            for (int i = 0; i < num; i++) {
+            for (int i = num; i >= 1; i--) {
                 // print spaces
-                for (int j = 1; j <= i; j++) {
+                for (int j = 1; j <= (num - i); j++) {
                     System.out.print(" ");
                 }
                 // print *
-                for (int j = (2 * num) - i - 1; j > i; j--) {
+                for (int j = 1; j <= (2 * i) - 1; j++) {
                     System.out.print("*");
                 }
                 System.out.println();
