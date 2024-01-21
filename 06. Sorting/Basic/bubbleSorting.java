@@ -1,4 +1,5 @@
 // Bubble Sort
+// Time Complexity : O(n^2)
 
 public class bubbleSorting {
     public static void bubbleSort(int nums[]){
