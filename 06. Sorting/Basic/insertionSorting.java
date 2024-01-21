@@ -1,5 +1,5 @@
 // Insertion Sort
-// Time Complexity : O(n)
+// Time Complexity : O(n^2)
 
 public class insertionSorting {
     public static void insertionSort(int nums[]) {
