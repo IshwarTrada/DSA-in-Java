@@ -1,3 +1,5 @@
+// Clear Last I bits
+
 import java.util.*;
 
 public class clearLastIBits {
