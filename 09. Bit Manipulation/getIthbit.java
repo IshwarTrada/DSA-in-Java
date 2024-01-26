@@ -4,7 +4,7 @@
 import java.util.*;
 
 public class getIthbit {
-    public static void oddOrEven(int n, int i) {
+    public static void getBitValue(int n, int i) {
         if ((n & (1 << i)) == 0) {
             System.out.println("0 bit on " + i + " position in number " + n);
         } else {
@@ -19,6 +19,6 @@ public class getIthbit {
         int n = sc.nextInt();
         System.out.print("Enter bit position to know the value of that bit : ");
         int i = sc.nextInt();
-        oddOrEven(n, i);
+        getBitValue(n, i);
     }
 }
