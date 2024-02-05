@@ -1,4 +1,4 @@
-// Print number from 1 to n using Recursion
+// Problem 2 : Print number from 1 to n using Recursion
 
 public class p2 {
     // Approach 1
@@ -21,8 +21,9 @@ public class p2 {
     }
 
     public static void main(String[] args) {
-        int n = 10, number = 1;
+        int n = 10; 
         // For approach 1
+        // int number = 1;
         // printInc(n, number);
         // For approach 2
         printInc(n);
