@@ -1,4 +1,6 @@
 // Problem 5 : Print nth fibonacci number using recursion
+// Input : 3
+// Output : 2 (0+1+1)
 
 public class p5 {
     public static int fib(int n) {
@@ -11,7 +13,7 @@ public class p5 {
         return (fib(n-1) + fib(n-2));
     }
     public static void main(String[] args) {
-        int n = 35;
+        int n = 3;
         if(fib(n)==-1){
             System.out.println("Error to find fibonacci number at " +n+"th place due to it is negative.");
         }
