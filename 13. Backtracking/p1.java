@@ -20,7 +20,6 @@ public class p1 {
         changeArr(arr, i + 1, val + 1);
         arr[i] = arr[i] - 2;   // backtracking step
     }
-
     public static void main(String[] args) {
         int arr[] = new int[5];
         changeArr(arr, 0, 1);
