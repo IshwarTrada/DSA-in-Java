@@ -1,4 +1,4 @@
-// N Queens Problem using backtracking
+// N Queens Problem : All possible solutions
 // Time Complexity : O(n!)
 
 public class p4 {
