@@ -1,4 +1,4 @@
-// Swap 2 numbers from ArrayList - O(n)
+// Swap 2 numbers from ArrayList
 
 import java.util.ArrayList;
 
