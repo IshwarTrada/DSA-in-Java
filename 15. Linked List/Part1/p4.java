@@ -1,5 +1,5 @@
 // Linked Lists
-// Iterative search
+// Recursive search
 
 public class p4 {
     public int helper(Node head, int key) { // O(n)
