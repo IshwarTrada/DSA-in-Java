@@ -1,5 +1,5 @@
-// Linked Lists
-// Find and Remove Nth node from End (Iterative Approach)
+// Linked List
+// Remove Operation -> Find and Remove Nth node from End (Iterative Approach)
 
 public class p6 {
     public void deleteNthfromEnd(int n) {
