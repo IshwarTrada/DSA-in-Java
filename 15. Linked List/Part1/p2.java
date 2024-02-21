@@ -54,10 +54,10 @@ public class p2 {
         ll.addLast(6);
         ll.print(); // 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null
 
-        System.out.println(ll.removeFirst());
-        ll.print(); // 2 -> 9 -> 3 -> 4 -> null
-        System.out.println(ll.removeLast());
-        ll.print(); // 2 -> 9 -> 3 -> null
+        System.out.println(ll.removeFirst()); // 1
+        ll.print(); // 2 -> 3 -> 4 -> 5 -> 6 -> null
+        System.out.println(ll.removeLast()); // 6
+        ll.print(); // 2 -> 3 -> 4 -> 5 -> null
     }
 
     // Print Linked List - Time Complexity - O(n)
