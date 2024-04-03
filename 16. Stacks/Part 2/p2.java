@@ -1,4 +1,4 @@
-// Duplicate Parentheses
+// Duplicate Parentheses using Stack
 // Time Complexity : O(n)
 
 import java.util.*;
