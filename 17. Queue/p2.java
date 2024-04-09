@@ -86,3 +86,5 @@ public class p2 {
         }
     }
 }
+
+// Output : 1 2 3 4 5
