@@ -13,7 +13,7 @@ public class p5 {
         }
 
         // add - O(n)
-        public static void add(Integer data) {
+        public static void add(int data) {
             // until s1 is not empty pop element from s1 and push it into s2
             while (!s1.isEmpty()) {
                 s2.push(s1.pop());
