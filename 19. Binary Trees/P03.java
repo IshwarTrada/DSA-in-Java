@@ -46,7 +46,6 @@ public class P03 {
 
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
-
         postorder(root);
     }
 }
