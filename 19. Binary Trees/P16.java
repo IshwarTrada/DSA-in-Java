@@ -14,51 +14,6 @@ public class P16 {
 
     }
 
-    // Find LCA
-    public static Node lca(Node root, int n1, int n2) { // O(n)
-
-        if (root == null || root.data == n1 || root.data == n2) {
-            return root;
-        }
-
-        Node leftLCA = lca(root.left, n1, n2);
-        Node rightLCA = lca(root.right, n1, n2);
-
-        // leftLCA (valid) and rightLCA (null)
-        if (rightLCA == null) {
-            return leftLCA;
-        }
-        // leftLCA (null) and rightLCA (valid)
-        if (leftLCA == null) {
-            return rightLCA;
-        }
-
-        return root;
-    }
-
-    // Find distance b|w lca and nodes
-    public static int lcaDist(Node root, int n) {
-        if (root == null) {
-            return -1;
-        }
-
-        if (root.data == n) {
-            return 0;
-        }
-
-        int leftDist = lcaDist(root.left, n);
-        int rightDist = lcaDist(root.right, n);
-
-        if (leftDist == -1 && rightDist == -1) {
-            return -1;
-        } else if (leftDist == -1) {
-            return rightDist + 1;
-        } else {
-            return leftDist + 1;
-        }
-
-    }
-
     // Minimum distance
     public static int KAncestor(Node root, int n, int k) {
         if (root == null) {
