@@ -35,23 +35,23 @@ public class P04 {
         private void heapify(int idx) {
             int left = 2 * idx + 1;
             int right = 2 * idx + 2;
-            int minIdx = idx;
+            int maxIdx = idx;
 
-            if (left < arr.size() && arr.get(minIdx) < arr.get(left)) {
-                minIdx = left;
+            if (left < arr.size() && arr.get(maxIdx) < arr.get(left)) {
+                maxIdx = left;
             }
 
-            if (right < arr.size() && arr.get(minIdx) < arr.get(right)) {
-                minIdx = right;
+            if (right < arr.size() && arr.get(maxIdx) < arr.get(right)) {
+                maxIdx = right;
             }
 
-            if (minIdx != idx) {
+            if (maxIdx != idx) {
                 // swap
                 int tmp = arr.get(idx);
-                arr.set(idx, arr.get(minIdx));
-                arr.set(minIdx, tmp);
+                arr.set(idx, arr.get(maxIdx));
+                arr.set(maxIdx, tmp);
 
-                heapify(minIdx);
+                heapify(maxIdx);
             }
         }
 
